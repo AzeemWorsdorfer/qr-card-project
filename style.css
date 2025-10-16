@@ -9,11 +9,11 @@
 /* Body Styling */
 body {
   /* Dark Green Background */
-  background-color: #1f3c34;
+  background-color: #3B544D;
   /* Ensure Full Height */
   min-height: 100vh;
   /* Default light text color */
-  color: F5F5F5;
+  color: #F5F5F5;
   /* Center the card horizontally and vertically */
   display: flex;
   align-items: center;
@@ -26,9 +26,9 @@ main {
   /* Apply same as body for consistency to the card */
   background-color: #1f3c34;
   /* Set a max width so card doesn't stretch too wide */
-  max-width: 360px;
+  max-width: 550px;
   /* Add padding for inner spacing */
-  padding: 30px;
+  padding: 40px 30px 60px 30px;
   /* Add a slight margin to ensure it doesn't touch screen edges */
   margin: 10px;
   /* make text font size slightly larger for readability */
@@ -40,13 +40,13 @@ header {
   padding-bottom: 20px;
   position: relative;
 
-  background-image: url("QR.png");
+  background-image: url("qr_image.png");
   background-repeat: no-repeat;
 
   /* Set size of the QR code */
-  background-size: 110px;
+  background-size: 130px;
   /* Position the QR code to the top right */
-  background-position: top 0px right 0;
+  background-position: top 5px right 0;
 }
 
 /* Title Styling */
@@ -54,12 +54,13 @@ h1 {
   /* Set font size larger */
   font-size: 2.2em;
 
-  font_family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 
   /* Add some space below the title */
   margin-bottom: 10px;
   /* Set line height for better spacing */
   line-height: 1.2;
+  color: #F5F5F5;
 }
 
 /* Italic text styling */
@@ -89,9 +90,10 @@ footer {
   /* Use a Flexbox to arrange the buttons */
   display: flex;
 
-  justify-content: space-around;
+  justify-content: space-bewteen;
 /* Add a little top padding to seperate it */
   padding-top: 15px;
+
 }
 
 /* Button Styling */
@@ -107,12 +109,12 @@ footer a {
   /* Add padding for button size */
   padding: 10px 18px;
   /* Round corners slightly */
-  border-radius: 5px;
+  border-radius: 1px;
   /* Make text bolder */
   font-weight: bold;
   /* Ensure text is centered */
   text-align: center;
   /* Adjust width for buttons to fit side by side */
-  width: 160px;
+  width: 46%;
 }
 
