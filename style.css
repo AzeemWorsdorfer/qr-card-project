@@ -8,15 +8,30 @@
 
 /* Body Styling */
 body {
-    /* Dark Green Background */
-    background-color: #1F3C34;
-    /* Ensure Full Height */
-    min-height: 100vh;
-    /* Default light text color */
-    color: F5F5F5;
-    /* Center the card horizontally and vertically */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+  /* Dark Green Background */
+  background-color: #1f3c34;
+  /* Ensure Full Height */
+  min-height: 100vh;
+  /* Default light text color */
+  color: F5F5F5;
+  /* Center the card horizontally and vertically */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Main Card Container */
+main {
+  /* Apply same as body for consistency to the card */
+  background-color: #1f3c34;
+  /* Set a max width so card doesn't stretch too wide */
+  max-width: 400px;
+  /* Add padding for inner spacing */
+  padding: 30px;
+  /* Add a slight margin to ensure it doesn't touch screen edges */
+  margin: 10px;
+  /* make text font size slightly larger for readability */
+  font-size: 1.1em;
+}
+
