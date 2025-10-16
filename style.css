@@ -26,7 +26,7 @@ main {
   /* Apply same as body for consistency to the card */
   background-color: #1f3c34;
   /* Set a max width so card doesn't stretch too wide */
-  max-width: 400px;
+  max-width: 360px;
   /* Add padding for inner spacing */
   padding: 30px;
   /* Add a slight margin to ensure it doesn't touch screen edges */
@@ -37,9 +37,7 @@ main {
 
 /* Header Styling: Container for title and QR code */
 header {
-  /* Add internal space around content */
-  padding: 30px 20px 20px 0;
-  /* Set to a relative for easy positioning of the QR code */
+  padding-bottom: 20px;
   position: relative;
 
   background-image: url("QR.png");
@@ -48,7 +46,7 @@ header {
   /* Set size of the QR code */
   background-size: 110px;
   /* Position the QR code to the top right */
-  background-position: top 30px right 0;
+  background-position: top 0px right 0;
 }
 
 /* Title Styling */
@@ -59,7 +57,7 @@ h1 {
   font_family: Georgia, "Times New Roman", Times, serif;
 
   /* Add some space below the title */
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   /* Set line height for better spacing */
   line-height: 1.2;
 }
@@ -76,8 +74,6 @@ h1 i {
 section {
   /* Add padding to the top and bottom to seperate from header and footer */
   padding: 20px 0;
-  /* Set a small left padding to allign with the main text start */
-  padding-left: 5px;
 }
 
 /* Paragraph Styling */
@@ -93,9 +89,9 @@ footer {
   /* Use a Flexbox to arrange the buttons */
   display: flex;
 
-  justify-content: space-between;
+  justify-content: space-around;
 /* Add a little top padding to seperate it */
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 /* Button Styling */
@@ -117,6 +113,6 @@ footer a {
   /* Ensure text is centered */
   text-align: center;
   /* Adjust width for buttons to fit side by side */
-  width: 48%;
+  width: 160px;
 }
 
