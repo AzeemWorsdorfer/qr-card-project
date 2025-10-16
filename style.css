@@ -71,3 +71,52 @@ h1 i {
   /* Change the color to a distinct light green */
   color: #c0d6c9;
 }
+
+/* Section Stylin: Container for the main body text */
+section {
+  /* Add padding to the top and bottom to seperate from header and footer */
+  padding: 20px 0;
+  /* Set a small left padding to allign with the main text start */
+  padding-left: 5px;
+}
+
+/* Paragraph Styling */
+p {
+  /* Add space below each paragraph */
+  margin-bottom: 15px;
+  /* Set line height for better readability */
+  line-height: 1.5;
+}
+
+/* Footer Styling: Container for the button */
+footer {
+  /* Use a Flexbox to arrange the buttons */
+  display: flex;
+
+  justify-content: space-between;
+/* Add a little top padding to seperate it */
+  padding-top: 10px;
+}
+
+/* Button Styling */
+footer a {
+  /* Display as block/inline-block*/
+  display: inline-block;
+  /* Remove default link underline */
+  text-decoration: none;
+  /* Set background color to a (light green/cream) */
+  background-color: #D1E8D9;
+  /* Set text color to dark green */
+  color: #1F3C34;
+  /* Add padding for button size */
+  padding: 10px 18px;
+  /* Round corners slightly */
+  border-radius: 5px;
+  /* Make text bolder */
+  font-weight: bold;
+  /* Ensure text is centered */
+  text-align: center;
+  /* Adjust width for buttons to fit side by side */
+  width: 48%;
+}
+
