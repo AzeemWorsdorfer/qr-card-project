@@ -35,3 +35,39 @@ main {
   font-size: 1.1em;
 }
 
+/* Header Styling: Container for title and QR code */
+header {
+  /* Add internal space around content */
+  padding: 30px 20px 20px 0;
+  /* Set to a relative for easy positioning of the QR code */
+  position: relative;
+
+  background-image: url("QR.png");
+  background-repeat: no-repeat;
+
+  /* Set size of the QR code */
+  background-size: 110px;
+  /* Position the QR code to the top right */
+  background-position: top 30px right 0;
+}
+
+/* Title Styling */
+h1 {
+  /* Set font size larger */
+  font-size: 2.2em;
+
+  font_family: Georgia, "Times New Roman", Times, serif;
+
+  /* Add some space below the title */
+  margin-bottom: 20px;
+  /* Set line height for better spacing */
+  line-height: 1.2;
+}
+
+/* Italic text styling */
+h1 i {
+  /* Make italic part slightly bolder */
+  font-weight: 600;
+  /* Change the color to a distinct light green */
+  color: #c0d6c9;
+}
